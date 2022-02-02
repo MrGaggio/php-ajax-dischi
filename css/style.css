@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #1e2d3b;
+}
+
 .logo_container {
     background-color:  #2E3A46;
     height: 80px;
@@ -12,4 +16,30 @@
 }
 .logo {
     padding: 15px;
+}
+
+main {
+  text-align: center;
+  overflow-y: hidden;
+  background-color: #1e2d3b;
+}
+h2{
+    color: white;
+    padding-top: 10px;
+}
+h5, h6 {
+    color: #75756F;
+}
+
+.container {
+  padding-top: 50px;
+}
+.card {
+  background-color: #2e3a46 !important;
+  padding-top: 20px;
+}
+.gendre{
+  color: #75756F;
+  font-weight: 700;
+
 }
