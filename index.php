@@ -28,18 +28,17 @@ Stampiamo i dischi solo con l’utilizzo di PHP, che stampa direttamente i disch
 
 
     <!-- main -->
-
-    <div class="container">
-      <div class="row mb-4">
-        <div class="search d-flex justify-content-center">
+    <main>
+      <div class="container">
+        <div class="row mb-4">
+          <div class="search d-flex justify-content-center">
+          </div>
+        </div>
+        <div class="row cards">
+          <?php include_once __DIR__ . '/partials/cards.php' ?>
         </div>
       </div>
-      <div class="row cards">
-        <?php include_once __DIR__ . '/partials/cards.php' ?>
-        
-      </div>
-    </div>
-
+    </main>
 
 
 </body>

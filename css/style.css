@@ -19,6 +19,7 @@ body{
 }
 
 main {
+    height: 100vh;
   text-align: center;
   overflow-y: hidden;
   background-color: #1e2d3b;
@@ -37,6 +38,7 @@ h5, h6 {
 .card {
   background-color: #2e3a46 !important;
   padding-top: 20px;
+
 }
 .gendre{
   color: #75756F;
