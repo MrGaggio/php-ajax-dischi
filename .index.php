@@ -19,6 +19,13 @@ Stampiamo i dischi solo con l’utilizzo di PHP, che stampa direttamente i disch
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>prova</h1>
+    
+    <!-- header -->
+
+    <!-- prende l'header una singola volta e include la scheda come con vue  -->
+    <?php include_once __DIR__ . '/partials/header.php' ?>
+
+
+
 </body>
 </html>
