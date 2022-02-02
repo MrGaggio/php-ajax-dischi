@@ -27,21 +27,20 @@ Attraverso l’utilizzo di axios: al caricamento della pagina axios chiederà, a
 
     <!-- main -->
 
-    <div id="app">
-      {{ message }}
-    </div>
-
-    <main>
-      <div class="container">
-        <div class="row mb-4">
-          <div class="search d-flex justify-content-center">
-          </div>
+<div id="app">
+  <main>
+    <div class="container">
+      <div class="row mb-4">
+        <div class="search d-flex justify-content-center">
         </div>
-        <div class="row cards">
-          
-        </div>
+        <div class="row cards"> 
       </div>
-    </main>
+    </div>
+  </main>
+      
+</div>
+
+
 
   
     <script src="main.js"></script>
